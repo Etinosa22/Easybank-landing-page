@@ -11,6 +11,9 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+main{
+    width: 100vw;
+}
 
 nav {
     width: 100%;
@@ -52,12 +55,16 @@ nav {
     width: 100%;
     background-color: hsl(0, 0%, 98%);  
     display: flex;
+    flex-direction: row-reverse;
+}
+
+.empty {
+    display: none;
 }
 
 .nxt-gen {
     padding: 50px;
     width: 60%;
-    height: 400px;
     margin: 20px 0px 0px 100px;
 }
 
@@ -231,7 +238,11 @@ footer {
 
 .logo1 {
     margin: 10px 0px;
-    background-color: #fff;
+    filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+}
+
+.logo1 img {
+    width: 80%;
 }
 
 .social {
@@ -305,4 +316,222 @@ footer {
 
 .attribution a:hover{
     color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 375px){
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        width: 100vw;
+    }
+
+    nav {
+        width: 100vw;
+    }
+
+    .nav-cont {
+        width: 90%;
+        padding: 5px 0px;
+    }
+
+    .nav-list a{
+        display: none;
+    }
+
+    .btn button {
+        display: none;
+    }
+
+   .first-sect {
+        width: 100%;
+    }
+
+    .sect-1 {
+        display: block;
+    }
+
+    
+    .img-mock {
+        display: none;   
+    }
+
+    .empty {
+        display: block;
+    }
+
+    #mb-bg {
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    #phone {
+        width: 100%;
+        margin-top: -700px;
+        margin-bottom: 60px;
+    }
+
+    .nxt-gen {
+        padding: 0px;
+        width: 95%;
+        margin: auto auto;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 70px;
+    }
+
+    .nxt-gen h1 {
+        width: 100%;
+        padding: 0px;
+        font-size: 2.5em;
+        margin-top: -5px;
+        
+    }
+
+    .nxt-gen p {
+        width: 100%;
+        font-size: .9em;
+        line-height: 25px;
+        font-weight: 400;
+    }
+
+    .main-sect {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .sect-2 {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 90%;
+    }
+
+    .Easy-bank {
+        margin: 0px;
+    }
+
+    .Easy-bank h2 {
+        width: 100%;
+        margin: auto auto;
+    }
+
+    .Easy-bank p {
+        width: 100%;
+        font-size: .9em;
+        margin: auto auto;
+    }
+
+    .col-1 {
+        display: block;
+    }
+
+    .row-1 {
+        margin: 10px auto;
+    }
+
+    .row-1 h3 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .row-1 p {
+        width: 100%;
+        margin: 10px auto;
+        line-height: 21px;
+        font-size: .85em;
+    }
+
+    .third-sect {
+        width: 100%;
+    }
+
+    .sect-3 {
+        width: 90%;
+    }
+
+    .col-2 {
+        display: block;
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .sect-3 h2 {
+        margin: 40px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .grid {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .grid img {
+        width: 100%;
+    }
+
+    .first-p {
+        padding: 15px 20px;
+        font-size: .7em;
+    }
+
+    .grid h4 {
+        width: 83%;
+        font-size: .851em;
+        padding: 0px 20px;
+    }
+
+    .second-p {
+        font-size: .8em;
+        width: 80%;
+        line-height: 20px;
+        font-weight: 400;
+        padding: 15px 20px;
+    }
+
+    .foot-cont {
+        width: 90%;
+        display: block;
+    }
+
+    .cont-1 {
+        width: 100%;
+    }
+
+    .logo1 img {
+        width: 35%;
+    }
+
+    .social {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .cont-2 {
+        text-align: center;
+    }
+
+    .cont-3 {
+        text-align: center;
+        margin: -20px auto;
+    }
+
+    .cont-4 {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .cont-4 p {
+        font-size: .9em;
+        color: hsl(233, 8%, 62%);
+    }
+
+    .attribution {
+        margin-top: -15px;
+    }
+
 }
