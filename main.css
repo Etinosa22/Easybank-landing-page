@@ -51,6 +51,10 @@ nav {
     border: none;
 }
 
+.btn button:hover{
+    background-image: linear-gradient(to right, hsl(136, 34%, 45%), hsl(192, 43%, 46%));
+}
+
 .sect-1 {
     width: 100%;
     background-color: hsl(0, 0%, 98%);  
@@ -92,6 +96,10 @@ nav {
     font-weight: 700;
     color: #fff;
     border: none;
+}
+
+.btn-2 button:hover{
+    background-image: linear-gradient(to right, hsl(136, 34%, 45%), hsl(192, 43%, 46%));
 }
 
 .img-mock {
@@ -212,6 +220,10 @@ nav {
     color: hsl(0, 0%, 0%);
 }
 
+.grid h4 a:hover {
+    color: hsl(136, 65%, 51%);
+}
+
 .second-p {
     font-size: .9em;
     width: 80%;
@@ -250,9 +262,14 @@ footer {
     width: 100%;
 }
 
-.social img {
-    width: 12%;
-    margin: 0px 5px;
+.social .fa-brands{
+    width: 20px;
+    margin: 0px;
+    color: #fff;
+}
+
+.social .fa:hover{
+    cursor: pointer;
 }
 
 .cont-2 {
@@ -266,6 +283,10 @@ footer {
 .cont-2 p a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
+}
+
+.cont-2 p a:hover{
+    color: hsl(136, 65%, 51%);
 }
 
 .cont-3 {
@@ -282,6 +303,10 @@ footer {
     color: hsl(0, 0%, 100%);
 }
 
+.cont-3 p a:hover{
+    color: hsl(136, 65%, 51%);
+}
+
 .cont-4 {
     text-align: right;
 }
@@ -292,7 +317,12 @@ footer {
     border-radius: 20px;
     border: none;
     color: #fff;
+    cursor: pointer;
     background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+.cont-4 button:hover{
+    background-image: linear-gradient(to right, hsl(136, 34%, 45%), hsl(192, 43%, 46%));
 }
 
 .cont-4 p {
