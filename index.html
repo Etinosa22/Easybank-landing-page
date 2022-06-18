@@ -9,26 +9,34 @@
   <title>Frontend Mentor | Easybank landing page</title>
 </head>
 <body>
-  <nav>
-    <div class="nav-cont">
-        <div class="logo">
-          <img src="./images/logo.svg" alt="logo">
-        </div>        
-        <div class="nav-list">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-            <a href="#blog">Blog</a>
-            <a href="#careers">Careers</a>
-          </ul>
-        </div>
-        <div class="btn">
-          <button type="button">Request Invite</button>
-        </div>
-      </div>
-  </nav>
+  <!-- HEADER ALONG WITH THE NAVBAR -->
+  <header>
+    <nav class="nav-cont">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="logo">
+          </div>  
+          <div class="nav-list">   
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#careers">Careers</a></li>
+            </ul>
+          </div>   
+          <div class="btn">
+            <button type="button">Request Invite</button>
+          </div>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+    </nav>
+  </header>
 
   <main>
+    <!-- FIRST SECTION -->
   <section class="first-sect">
     <div class="sect-1">
       <div class="empty">
@@ -50,6 +58,7 @@
     </div>
   </section>
 
+  <!-- SECOND SECTION -->
     <section class="main-sect">
       <div class="sect-2">
         <div class="Easy-bank">
@@ -86,6 +95,7 @@
       </div>
     </section>
       
+    <!-- THIRD SECTION -->
     <section class="third-sect">
       <div class="sect-3">
         <h2>Latest Articles</h2>
@@ -123,6 +133,7 @@
     </section> 
   </main>
 
+  <!-- FOOTER -->
   <footer>
     <div class="foot-cont">
       <div class="cont-1">
@@ -160,5 +171,7 @@
     Coded by <a href="#">EKHATOR ETINOSA</a>.
   </div>
   </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
